@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: t4
-        setup-command: pip install pytest matplotlib statsmodels unittest numpy scipy
+        setup-command: pip install pytest matplotlib statsmodels numpy scipy
         command: pytest grade_task4.py
         timeout: 10
         max-score: 1
@@ -27,7 +27,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: t7
-        setup-command: pip install pytest matplotlib statsmodels unittest numpy scipy
+        setup-command: pip install pytest matplotlib statsmodels numpy scipy
         command: pytest grade_task7.py
         timeout: 10
         max-score: 1
@@ -36,7 +36,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: t8
-        setup-command: pip install pytest matplotlib statsmodels unittest numpy scipy
+        setup-command: pip install pytest matplotlib statsmodels numpy scipy
         command: pytest grade_task8.py
         timeout: 10
         max-score: 1
@@ -45,7 +45,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: t9
-        setup-command: pip install pytest matplotlib statsmodels unittest numpy scipy
+        setup-command: pip install pytest matplotlib statsmodels numpy scipy
         command: pytest grade_task9.py
         timeout: 10
         max-score: 1
